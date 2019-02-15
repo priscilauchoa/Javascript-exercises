@@ -1,0 +1,83 @@
+header {
+    margin: 0;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Staatliches', cursive;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, minmax(200px, 200px));
+    grid-template-areas: 
+    "a1 b1 c1"
+    "a2 b2 c2"
+    "a3 b3 c3";
+     
+}
+
+.grid div{
+    border: 10px solid black;
+}
+.grid-centralizar{
+    display:flex; 
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.visivel-jogador {
+    display: block; 
+    background-image: url("imagens/JogodaVelha01.jpg"); 
+    background-size: cover;
+}
+
+.visivel-maquina{
+    display: block;
+    background-image: url("imagens/JogodaVelha02.jpg");
+
+}
+
+.a1{
+    display: flex;
+   
+}
+
+.a2{
+    display: flex;
+}
+
+.a3{
+    display: flex;
+}
+
+.b1{
+    display: flex;
+}
+
+.b2{
+    display: flex;
+}
+
+.b3{
+    display: flex;
+}
+
+.c1{
+    display: flex;
+}
+
+.c2{
+    display: flex;
+}
+
+.c3{
+    display: flex;
+}
