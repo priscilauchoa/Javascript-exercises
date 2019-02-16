@@ -33,13 +33,13 @@ header h1{
     align-items: center;
 
 }
-.visivel-jogador {
+.xis {
     display: block; 
     background-image: url("imagens/JogodaVelha01.jpg"); 
     background-size: cover;
 }
 
-.visivel-maquina{
+.bola {
     display: block;
     background-image: url("imagens/JogodaVelha02.jpg");
 
