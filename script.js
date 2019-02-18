@@ -16,9 +16,45 @@ let matriz = [
 ];
 
 function verificaJogo() {
+    
+        if((matriz[0][0] == matriz[0][1]) &&  matriz[0][0] == matriz[0][2]){
+            
+            console.log('Você ganhou!');
+        }
 
-    // escrever a logica da verificacao do jogo utilizando a matriz
-}
+        else if((matriz[1][0] == matriz[1][1]) && matriz[1][0] == matriz[1][2]){
+                
+            console.log('Você ganhou!');
+        }
+        
+        else if((matriz[2][0] == matriz[2][1]) && matriz[2][0] == matriz[2][2]){
+                
+            console.log('Você ganhou!');
+        }
+
+        else if((matriz[0][0] == matriz[1][1]) && matriz[0][0] == matriz[2][2]){
+                
+            console.log('Você ganhou!');
+        }
+
+        else if((matriz[1][0] == matriz[1][1]) && matriz[1][0] == matriz[1][2]){
+                
+            console.log('Você ganhou!');
+        }
+
+        else if((matriz[2][2] == matriz[1][1]) && matriz[2][2] == matriz[0][0]){
+                
+            console.log('Você ganhou!');
+        }
+
+        else {
+            
+            console.log('Continue!');
+        }
+    }
+
+
+
 
 function preencheMatriz(identificador, simbolo) {
 
