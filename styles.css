@@ -4,15 +4,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(imagens/JogodaVelha.jpg);
 }
 header h1{
     align-items: center;
+    color: white;
     display: flex;
+    font-size: 36px;
     justify-content: center;
     font-family: 'Staatliches', cursive;
+    
 
 }
 .grid {
+    
     display: grid;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(3, minmax(200px, 200px));
@@ -24,13 +29,18 @@ header h1{
 }
 
 .grid div{
-    border: 10px solid black;
+    border: 7px solid rgb(60, 74, 202);
+    background-color: white;
 }
 .grid-centralizar{
     display:flex; 
-   
     justify-content: center;
     align-items: center;
+    margin: 0;
+    margin-top:4px;
+    background-image: url(imagens/JogodaVelha.jpg);
+
+    
 
 }
 .xis {
